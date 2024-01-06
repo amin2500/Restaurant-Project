@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger Store</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="nav">
+      <span class="nav__logo">Bob's Bugers</span>
+      <div>
+        <a class="nav__links" href="#home">Home</a>
+        <a class="nav__links" href="#about">About Us</a>
+        <a class="nav__links" href="#menu">Menu</a>
+        <a class="nav__links" href="#contact">
+          <button class="nav__links__button">Contact</button>
+        </a>
+      </div>
+    </nav>
+    <!-- Header -->
+    <header id="home">
+      <h1 class="home__title">Bob's Burgers</h1>
+      <p class="home__para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias autem
+        dignissimos rem sapiente molestiae possimus quam dolor optio eaque
+        delectus.
+      </p>
+      <a href="#contact"><button class="home__button">Contact Us</button></a>
+    </header>
+    <!-- About Us Section -->
+    <main>
+      <section id="about">
+        <img class="about__img" src="./Assets/about-image.png" alt="" />
+        <div class="about__wrapper">
+          <h2 class="about__title">About Us</h2>
+          <p class="about__para">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            ducimus vitae facilis aliquam officia quaerat eligendi libero
+            reiciendis nemo perferendis illum minima qui corrupti ad ex amet
+            similique, molestias at.
+          </p>
+          <button class="about__button">Learn more</button>
+        </div>
+      </section>
+      <!-- Menu Section -->
+      <section id="menu">
+        <div class="menu__wrapper">
+          <h2 class="menu__title">Menu</h2>
+          <p class="menu__para">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
+            consequuntur, iusto minima molestias quibusdam quod ullam, et
+            tempora dolor nulla blanditiis explicabo obcaecati corrupti
+            eligendi, vero necessitatibus aut. Iste, error.
+          </p>
+          <button class="menu__button">Learn More</button>
+        </div>
+        <img class="menu__img" src="./Assets/menu-image.png" alt="" />
+      </section>
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2 class="contact__title">Contact</h2>
+        <form class="contact__form">
+          <label  for="name">Name</label>
+          <input type="text" id="name" class="contact__form__input" />
+          <label for="email">Email</label>
+          <input type="email" id="email" class="contact__form__input" />
+          <label for="Message">Message</label>
+          <textarea id="message" class="contact__form__textarea"></textarea>
+          <button class="contact__form__button">Send</button required>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a class="footer__links" href="#home">Home</a>
+      <a class="footer__links" href="#about">About</a>
+      <a class="footer__links" href="#menu">Menu</a>
+      <a class="footer__links" href="#contact">Contact</a>
+    </footer>
+  </body>
+</html>
